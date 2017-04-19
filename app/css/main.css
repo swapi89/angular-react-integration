@@ -1,0 +1,11 @@
+
+#edit-view ,#profile-view {
+ padding-top:80px; word-wrap:break-word;
+}
+
+#signup-view , #index-view , #login-view {
+  padding-top:80px;
+}
+.loading-bg {
+  background-image: url('../images/loader.gif');
+}
