@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { Headers, HttpModule }    from '@angular/http';
 import { RouterModule , Routes }  from '@angular/router';
+import {React} from 'react';
 
 
 import { AppComponent }  from './app.component';

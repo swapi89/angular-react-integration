@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="app/css/bootstrap.min.css">
-    <link rel="stylesheet" href="app/css/font-awesome.min.css">
-    <link rel="stylesheet" href="app/css/main.css"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css"> 
 
 
     <!-- Polyfill(s) for older browsers -->
@@ -16,7 +16,6 @@
 
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
-
     <script src="systemjs.config.js"></script>
     <script>
       System.import('main.js').catch(function(err){ console.error(err); });
@@ -24,6 +23,6 @@
   </head>
 
   <body>
-    <my-app>Loading AppComponent content here ...</my-app>
+    <my-app data-url="abc">Loading AppComponent content here ...</my-app>
   </body>
 </html>

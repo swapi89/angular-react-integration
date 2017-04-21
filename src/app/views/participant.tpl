@@ -1,4 +1,4 @@
-<div class="container" id="signup-view">
+<div class="container" id="participant">
 
   <div class="col-sm-6 col-sm-offset-3">
 
